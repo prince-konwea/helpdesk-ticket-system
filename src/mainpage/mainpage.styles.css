@@ -1,0 +1,37 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 150px;
+    gap: 2rem;;
+}
+
+.mainpage form{
+    
+    border: 1rem;
+    width:  20vw;
+    height: 20vh;
+    box-shadow: 10px grey;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.mainpage button{
+    padding: 20px;
+    width: 50%;
+    height: 40%;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
